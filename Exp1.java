@@ -8,7 +8,7 @@ public class Exp1{
 
         System.out.println("Is this number pozitife or negative?");
         double sayi = tara.nextDouble();
-        if(sayi < 0){
+        if(sayi < 0){ 
             System.out.println("The Number is negative!");
         }else{
             System.out.println("The Number is pozitive!");

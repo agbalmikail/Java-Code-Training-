@@ -4,14 +4,14 @@ import java.util.Scanner;
 
 public class Exp02 {
     public static void main(String[] args) {
-        Scanner tara = new Scanner(System.in);
+        Scanner input = new Scanner(System.in);
 
         System.out.println("Enter the  first number:");
-        int firstNum = tara.nextInt();
+        int firstNum = input.nextInt();
         System.out.println("Enter the  second number:");
-        int secondNum = tara.nextInt();
+        int secondNum = input.nextInt();
         System.out.println("Enter the third number:");
-        int thirdNum = tara.nextInt();
+        int thirdNum = input.nextInt();
 
         if(firstNum > secondNum && firstNum > thirdNum){
             System.out.println("The Greatest number is: " + firstNum);
@@ -20,6 +20,6 @@ public class Exp02 {
         }else if(thirdNum > firstNum && thirdNum > secondNum){
             System.out.println("The Greatest number is:: " + thirdNum);
         }
-        tara.close();
+        input.close();
     } 
 }

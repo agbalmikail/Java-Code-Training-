@@ -13,12 +13,15 @@ public class Exp07 {
             return;
         }
 
-        int stepNumber = 0;
+        int sum = 0;
+        int digitsNumber = 0;
         while(num !=0){
-            stepNumber++;
+            digitsNumber++;
+            sum += num %10;
             num= num /10;
         }
-        System.out.println("The value has " + stepNumber + " digits");
+        System.out.println("The value has " + digitsNumber + " digits");
+        System.out.println("The sum of the digits number is: " + sum);
 
         input.close();
     }

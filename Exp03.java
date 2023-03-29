@@ -4,10 +4,10 @@ import java.util.Scanner;
 
 public class Exp03 {
     public static void main(String[] args) {
-        Scanner tara = new Scanner(System.in);
+        Scanner input = new Scanner(System.in);
 
         System.out.println("Which day would you learn?");
-        int day = tara.nextInt();
+        int day = input.nextInt();
 
         switch(day){
             case 1:
@@ -25,6 +25,6 @@ public class Exp03 {
             case 7:
             System.out.println("It's Sunday");break;
         }
-        tara.close();
+        input.close();
     }
 }
